@@ -3,11 +3,12 @@
 </style>
 <template>
   <div>
-    <h1>{{title}} : {{$route.params.id}}</h1>
+    <h1>{{title}} : {{id}}</h1>
   </div>
 </template>
 <script>
 export default {
+  props:["id"],
   data () {
     return {
       "title" :  "Produtos",
