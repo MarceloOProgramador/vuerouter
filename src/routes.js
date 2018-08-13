@@ -3,7 +3,7 @@ import Tasks from "./Components/Tasks";
 import Products from "./Components/Products";
 
 export default [
-  { path: "/", component: Home},
-  { path: "/products", component: Products},
-  { path: "/tasks", component: Tasks}
+  { path: "/", component: Home, name: "home"},
+  { path: "/products", component: Products, name: "products"},
+  { path: "/tasks", component: Tasks, name: "tasks"}
 ]
