@@ -4,6 +4,6 @@ import Products from "./Components/Products";
 
 export default [
   { path: "/", component: Home, name: "home"},
-  { path: "/products", component: Products, name: "products"},
+  { path: "/products/:id", component: Products, name: "products"},
   { path: "/tasks", component: Tasks, name: "tasks"}
 ]

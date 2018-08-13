@@ -4,7 +4,7 @@
     <h2>Essential Links</h2>
     <ul>
       <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/products">Produtos</router-link></li>
+      <li><router-link :to="{name: 'products', params: {id: 1}}">Produtos</router-link></li>
       <li><router-link to="/tasks">Tasks</router-link></li>
     </ul>
     <router-view></router-view>
